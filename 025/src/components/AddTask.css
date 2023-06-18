@@ -18,7 +18,7 @@
     margin-right: 5px;
 }
 
-.addtask input{
+.addtask input {
     font-size: 18px;
     padding: 7px;
     border: 1px solid #878787;
@@ -27,7 +27,7 @@
     margin: 10px;
 }
 
-.addtask input:focus{
+.addtask input span :focus{
     outline: none;
 }
 
@@ -39,8 +39,18 @@
     cursor: pointer;
 }
 
-.addtask button{
+.addtask button {
     font-size: 18px;
     padding: 7px 10px;
     margin: 10px;
+}
+
+span {
+    font-size: 21px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #be3434;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
 }
